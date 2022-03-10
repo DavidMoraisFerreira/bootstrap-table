@@ -12,6 +12,9 @@ module.exports = {
   extends: [
     'eslint:recommended'
   ],
+  plugins: [
+    '@babel/plugin-proposal-nullish-coalescing-operator'
+  ],
   rules: {
     'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
